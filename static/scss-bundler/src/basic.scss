@@ -1,0 +1,130 @@
+@import 'themes', 'vendor', 'navigation', 'footer';
+
+@import './components/bilderkarussell';
+@import './components/geheZu';
+@import './components/kaertchenMitLink';
+@import './components/kontaktformular';
+@import './components/parallax';
+@import './components/textblock';
+@import './components/blog';
+
+
+/*****************************
+ *   Basic
+ *****************************/
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/*****************************
+ *   Inhaltsbereich
+ *****************************/
+
+main {
+    min-height: 100%;
+    padding-top: 51px;
+}
+
+main a {
+    color: $basic-link-color;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+main a:hover {
+    color: $basic-link-color-hover;
+}
+
+main li,
+main p {
+    font-size: 18px;
+    color: #444;
+}
+
+main h1,
+main h2,
+main h3,
+main h4 {
+}
+
+main h1 {    
+    font-size: 50px;
+}
+
+main h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+main h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+main h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+main .container-fluid.no_padding > .row > div {
+    padding: 0;
+}
+
+
+/* Large */
+@media (max-width: 1200px) {
+}
+/* Medium */
+@media (max-width: 992px) {
+}
+/* Small */
+@media (max-width: 768px) {
+
+    main h1 {
+        font-size: 33px;
+        margin-bottom: 40px;
+        word-break: break-word;
+    }
+
+    main h2 {
+        font-size: 22px;
+        margin-bottom: 35px;
+        word-break: break-all;
+    }
+
+    main h3 {
+        font-size: 20px;
+        margin-bottom: 30px;
+        word-break: break-all;
+    }
+
+    main h4 {
+        font-size: 18px;
+        margin-bottom: 25px;
+        word-break: break-all;
+    }
+
+    main h5 {
+        font-size: 16px;
+        margin-bottom: 20px;
+        word-break: break-all;
+    }
+
+    main p {
+        font-size: 16px;
+    }
+}
+/* Extra Small */
+@media (max-width: 576px) {
+    .my-navbar {
+        border-bottom: 1px solid #828282;
+        background: #FFF;
+    }
+
+    .navbar-nav {
+        padding: 10px 3px 3px 3px;
+    }
+}

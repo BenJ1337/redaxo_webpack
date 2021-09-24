@@ -1,0 +1,136 @@
+
+/*****************************
+ *   Kontaktformular
+ *****************************/
+
+main #kontakt-formular {
+    padding: 70px 0;
+    min-height: 675px;
+    background: #333231;
+}
+
+main #kontakt-formular p,
+main #kontakt-formular li {
+    color: #B1B1B1;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+main #kontakt-formular h4 {
+    margin-bottom: 0;
+    color: #dfdfdf;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+main #kontakt-formular .text-block h1 {
+    text-align: center;
+}
+
+main #kontakt-formular .text-block p {
+    color: #B1B1B1;
+    text-align: center;
+}
+
+main #kontakt-formular .text-block {
+    padding: 50px 0;
+}
+
+main #kontakt-formular form .col-md-6,
+main #kontakt-formular form .col-md-12 {
+    margin: 10px 0;
+    padding: 0 15px;
+}
+
+main #kontakt-formular form #contact-form-result {
+    margin: 0;
+    padding: 0 15px;
+}
+
+main #kontakt-formular form #contact-form-result p.success {
+    color: #02c445;
+}
+
+main #kontakt-formular form #contact-form-result p.error {
+    color: #ff4141;
+    margin-bottom: 0;
+}
+
+main #kontakt-formular form input,
+main #kontakt-formular form textarea {
+    width: 100%;
+    border: none;
+    font-size: 13px;
+    border-radius: 1px;
+    padding: 7px 7px 7px 15px;
+    outline: none;
+}
+
+main #kontakt-formular form input:focus,
+main #kontakt-formular form textarea:focus {
+    background: #fff00a;
+}
+
+main #kontakt-formular form label {
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Frutiger', sans-serif;
+    color: #B1B1B1;
+}
+
+main #kontakt-formular form label input {
+    width: auto;
+}
+
+main #kontakt-formular form button {
+    margin: 0 auto;
+    display: block;
+    border-radius: 1px;
+    background: #fff00a;
+    border: 2px solid transparent;
+    color: #111;
+}
+
+
+main #kontakt-formular form button:hover,
+main #kontakt-formular form button:focus {
+    background: #333;
+    border: 2px solid #fff00a;
+    color: #fff00a;
+    box-shadow: none;
+}
+
+main #kontakt-formular form .fax,
+main #kontakt-formular form .spampro {
+    display: none;
+}
+
+
+main #kontakt-formular form a {
+    font-size: 13px;
+    color: #fff00a;
+    text-decoration: none;
+}
+
+
+main #kontakt-formular form a:hover {
+    text-decoration: underline;
+    background: transparent;
+}
+
+
+/* Large */
+@media (max-width: 1200px) {
+}
+/* Medium */
+@media (max-width: 992px) {
+}
+/* Small */
+@media (max-width: 768px) {
+    #kontakt-formular {
+        padding: 0 15px 10px;
+    }
+}
+/* Extra Small */
+@media (max-width: 576px) {
+}
