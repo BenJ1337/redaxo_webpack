@@ -1,9 +1,7 @@
 node_modules/
 /.nyc_output
-.DS_Store
-*.log
-.idea
-.vscode
+dist/
 .cache
+.env
 .eslintcache
 package-lock.json

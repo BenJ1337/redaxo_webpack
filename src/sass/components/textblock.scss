@@ -1,0 +1,19 @@
+.text-block {
+}
+
+
+/* Large */
+@media (max-width: 1200px) {
+}
+/* Medium */
+@media (max-width: 992px) {
+}
+/* Small */
+@media (max-width: 768px) {
+    .text-block {
+    	padding: 20px 0;
+    }
+}
+/* Extra Small */
+@media (max-width: 576px) {
+}

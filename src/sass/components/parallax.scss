@@ -1,0 +1,68 @@
+.parallax-text {
+    height: 260px !important;
+    background-position: top center !important;
+}
+
+
+/* Large */
+@media (max-width: 1200px) {
+}
+/* Medium */
+@media (max-width: 992px) {
+}
+/* Small */
+@media (max-width: 768px) {
+
+    .parallax-text div h1 {
+    	font-size: 30px;
+    	width: 80%;
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding-top: 20px;
+    }
+
+    .parallax-text div h2 {
+    	font-size: 22px;
+    	width: 60%;
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+
+    .parallax-text div p {
+    	font-size: 20px;
+    	width: 90%;
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+}
+/* Extra Small */
+@media (max-width: 576px) {
+
+    .parallax-text div h1 {
+    	font-size: 20px;
+    	width: 90%;
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	padding-top: 20px;
+    }
+
+    .parallax-text div h2 {
+    	font-size: 15px;
+    	width: 60%;
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+
+    .parallax-text div p {
+    	font-size: 15px;
+    	width: 90%;
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+}
